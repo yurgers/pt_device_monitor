@@ -1,4 +1,4 @@
-module go-api-monitor
+module pt_device_monitor
 
 go 1.24.0
 
