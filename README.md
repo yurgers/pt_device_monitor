@@ -20,7 +20,7 @@ cd pt_device_monitor
  go build -o pt_device_monitor .
 
 # Run it (uses default endpoint)
-./pt_device_monitor
+./pt_device_monitor -base_url https://your-mgmt.local/api/v2/ 
 ```
 
 ### custom settings
@@ -48,3 +48,4 @@ export PT_POLL_INTERVAL="1m"
 -password    password for api authentication (env: PT_API_PASSWORD)  (default: admin) 
 -interval    How often to poll  (env: PT_API_PASSWORD)               (default: 5s)
 ```
+
